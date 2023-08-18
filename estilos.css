@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Dancing+Script:wght@500&display=swap');
+
+
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --texto1-color: #a52a2a;
+    --fondo-header: #efeaea;
+}
+
+
+
+header{
+    background-color: var(--fondo-header);
+    width: 100%;
+    height: 200px;
+    display: flex;
+    gap:200px;
+}
+ 
+header p{
+    padding-top: 70px;
+    font-size: 40px;
+    width: 100%;
+    margin: center;
+}
+
+header img{ 
+    height: 150px;
+    width: 150px;
+    margin: 30px;
+}
+
+
+    p {
+        font-size: xx-large;
+    
+    }
+
+    .primary{
+        font-family: 'Dancing Script', cursive;
+        color: var(--texto1-color);
+    }
+
+    p.primary:hover{
+        background-color: darkgray;
+        color: violet
+    }
+
+    #pintumex{
+        font-family: 'Courgette', cursive;
+    }
+
+    input {
+        width: 20%;
+    }
+
+    input .beauty-box{
+        font-size: 18px;
+        font-family: 'Courgette', cursive;
+        padding: 5px;
+        box-shadow: inset gray 10px;
+        text-align: right;
+        height: 50px;
+        border-radius: 10%;
+        border-color: black;
+        border-width: 0.5cm;
+    }
+
+    .celda {
+        color: green;
+        font-style: italic;
+        text-align: right;
+    }
+
+
+    .first-column{
+        color: red;
+        font-style: normal;
+    }
+
+    #tercer-titulo{
+        background-color: beige;
+    }
+
+    li.take::before{
+        content:'*';
+    }
+
+    @media only screen (min-width: 768px) {
+        
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 959px){
+        input.beauty-box{
+            width: 800px;
+        }
+        
+    }
+
+    .contenedor{
+        display:flex;
+    }
+
+
+    .contenedor div{
+        width: 100px;
+        border: solid 1px black
+
+    }
+
+    .absolute{
+        position: absolute;
+        left: px;
+        top: 10px
+    }
+
+    .fixed{
+        position: fixed;
+        right: 0;
+        bottom: 10px
+    }
+
+    *{ 
+        color: rosybrown(230, 64, 166)
+    }
+
+
+
+    
