@@ -47,9 +47,19 @@ section div{
 
 section p{
     text-align: center;
-    font-size: 80px;
+    font-size: 40px;
 
 }
+
+#pintumex{
+    font-family: 'Courgette', cursive;
+    display: flex ;
+}
+
+#pintumex div{
+    display: inline-block;
+}
+
     p {
         font-size: xx-large;
     
@@ -58,6 +68,7 @@ section p{
     .primary{
         font-family: 'Dancing Script', cursive;
         color: var(--texto1-color);
+        font-size: 80px;
     }
 
     p.primary:hover{
@@ -65,9 +76,9 @@ section p{
         color: violet
     }
 
-    #pintumex{
-        font-family: 'Courgette', cursive;
-    }
+    
+       
+
 
     input {
         width: 20%;
