@@ -60,6 +60,13 @@ section p{
     display: inline-block;
 }
 
+footer{
+    margin-top: 25px;
+    height: 100px;
+    text-align: center;
+    padding-top: 40px;
+    background-color: var(--fondo-header);
+}
     p {
         font-size: xx-large;
     
